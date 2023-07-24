@@ -1,0 +1,12 @@
+@use "../../assets/sass/variables" as *;
+.header{
+  display: flex;
+  align-items: center;
+  &__image{
+    height: 150px;
+    margin: 25px;
+  }
+  &__text{
+    color: $colour-tertiary;
+  }
+}
