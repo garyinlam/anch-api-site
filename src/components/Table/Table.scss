@@ -1,0 +1,39 @@
+@use "../../assets/sass/variables" as *;
+
+.table {
+  width: 100%;
+  border: black 1px solid;
+  border-radius: 5px;
+
+  &__headers{
+    padding: 5px 0px;
+  }
+
+  &__cell{
+    text-align: center;
+    padding: 5px 0px;
+  }
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  &__button{
+    margin: 5px;
+    padding: 5px 10px;
+  }
+  &__counter{
+    display: flex;
+    > * {
+      margin: 0px 2px;
+    }
+  }
+  &__goto{
+    > *{
+      margin: 0px 4px;
+    }
+  }
+  &__textbox,&__select{
+    padding: 2px;
+  }
+}

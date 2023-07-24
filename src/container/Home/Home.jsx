@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from '../../components/Header/Header'
-import Table from '../../components/Table'
+import Table from '../../components/Table/Table'
+import "./Home.scss"
 
 const Home = () => {
 
@@ -33,7 +34,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className="home">
       <Header/>
       <Table data={data}/>
     </div>
