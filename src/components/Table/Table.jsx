@@ -17,7 +17,7 @@ const columns = [
   }),
   columnHelper.accessor('icon_uri', {
     header: 'Image',
-    cell: info => <div><img height={34} src={info.getValue()}/></div>,
+    cell: info => <div><img height={34} src={info.getValue()} alt=''/></div>,
     footer: info => info.column.id,
   }),
   columnHelper.accessor('name.name-USen', {
