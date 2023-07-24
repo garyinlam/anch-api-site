@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anch-api-site/static/css/main.114da9d7.css",
+    "main.js": "/anch-api-site/static/js/main.e30f4411.js",
+    "static/js/787.f9e8f240.chunk.js": "/anch-api-site/static/js/787.f9e8f240.chunk.js",
+    "index.html": "/anch-api-site/index.html",
+    "main.114da9d7.css.map": "/anch-api-site/static/css/main.114da9d7.css.map",
+    "main.e30f4411.js.map": "/anch-api-site/static/js/main.e30f4411.js.map",
+    "787.f9e8f240.chunk.js.map": "/anch-api-site/static/js/787.f9e8f240.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.114da9d7.css",
+    "static/js/main.e30f4411.js"
+  ]
+}
