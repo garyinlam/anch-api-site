@@ -1,0 +1,12 @@
+@use "./variables" as *;
+
+* {
+  font-family: $font-default;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: $colour-primary;
+}
